@@ -1,0 +1,37 @@
+/* element selector */
+h1{
+    color: rgba(3, 3, 135, 0.847);
+}
+/* class selctor */
+.heading{
+    /* declarations */
+    color: cadetblue;
+    font-size: 40;
+    font-family: fantasy;
+}
+/* id selector */
+#only{
+    color:burlywood;
+
+
+  font-family: "Playwrite IN", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* #color giving */
+h4{
+    color: #484444;
+}
+.paragraph{  
+    font-family: "Playwrite IN",  sans-serif;
+    /* can be in px,number,rem,em(1 rem=18=6px) */
+    font-size: 20px;
+    font-optical-sizing: auto;
+    /* from 100-900 */
+    font-weight: 300;
+    /*I can change stlye to my wish */
+    font-style: normal;
+
+}
