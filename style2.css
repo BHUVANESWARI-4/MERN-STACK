@@ -1,0 +1,56 @@
+/* background color */
+.my-para {
+    background-color: rgb(40, 3, 110,0.8);
+    /* bg image using cdn */
+    background-image: url("https://ik.imagekit.io/qjtltbusf/Mern%20stack/dosa.jpeg");
+}
+.para1{
+    background-color: coral;
+    /* we can also give url from the cdn */
+    background-image: url(assets/scenary.jpeg);
+    height: 80px;
+    /* we can adjust the repeatancy */
+    background-repeat: no-repeat;
+   
+
+}
+.para2{
+    /* for giving opacity in the background colur only */
+    background-color: rgb(15, 133, 133,0.23);
+     /* for positioning the image */
+     background-image: url(assets/naruto.jpg);
+     background-repeat: no-repeat;
+     background-position: 50%;
+     /* for sizing */
+     background-size: contain;
+     /* opacity */
+     opacity: 1;
+    }
+.box1{
+    /*height,weight,bg color */
+    height: 200px;
+    width: 200px;
+    background-color: burlywood;
+    /* border,padding margin  (we can see the border width clearly if we add the border style)*/
+    border-width: 2px;
+    border-style: dotted;
+/* margin is the space between our box and the website */
+    margin-top: 30px;
+    margin-bottom: 50px;
+    /* padding is the space between the content and the box*/
+    padding-left: 30px;
+    /*  padding & margin:
+    top,left,right,bottom*/
+    /* border:(we give radius in border) top-left,top-right,bottom-left,bottom-right */
+    border-radius: 20px;
+}
+/* grouping of classes */
+.box2,.box3{
+    height: 200px;
+    width: 200px;
+    background-color: burlywood;
+    /* border,padding margin  (we can see the border width clearly if we add the border style)*/
+    border-width: 2px;
+    border-style: dotted;
+    border-top-right-radius: 20px;
+}

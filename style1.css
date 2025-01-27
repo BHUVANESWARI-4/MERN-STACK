@@ -33,5 +33,13 @@ h4{
     font-weight: 300;
     /*I can change stlye to my wish */
     font-style: normal;
+    text-align: justify;
 
+}
+/* universal selctor */
+*{
+    font-family: "Playwrite VN", serif;
+  font-optical-sizing: auto;
+  font-weight:lighter;
+  font-style: normal;
 }
